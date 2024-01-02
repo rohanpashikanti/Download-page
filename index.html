@@ -1,153 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="icon" href="https://rohanpashikanti.github.io/rohanpashikanti/gift.png" type="image/png">
-    <title>GIFTIFY</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: "Montserrat", sans-serif;
-            background-color: #F9E8FD; /* Use a solid color instead of a gradient */
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Ensure the body takes at least the full viewport height */
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="icon" href="https://rohanpashikanti.github.io/rohanpashikanti/gift.png" type="image/png">
+        <title>GIFTIFY</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: "Montserrat", sans-serif;
+                background-color: #F9E8FD;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
 
-        header {
-            border-radius: 0% 0% 15% 15%;
-            background-image: linear-gradient(to right, #9FE5FB, #FEB9B9);
-            display: flex;
-            justify-content: center;
-            width: 93%;
-            padding: 15px;
-        }
+            header {
+                background-image: linear-gradient(to right,#B6C3E3, #B6C3E3);
+                display: flex;
+                justify-content: center;
+                width: 93%;
+                padding: 15px;
+            }
 
-        p1 {
-            font-size: 25px;
-            color: black;
-            font-family: "Montserrat", sans-serif;
-        }
+            p1 {
+                font-size: 25px;
+                color: black;
+                font-family: "Montserrat", sans-serif;
+            }
 
-        p2 {
-            font-size: 20px;
-            color: black;
-            padding-left: 35px;
-            font-family: "Montserrat", sans-serif;
-        }
+            p2 {
+                text-transform: uppercase;
+                font-size: 20px;
+                color: black;
+                padding-left: 35px;
+                font-family: "Montserrat", sans-serif;
+            }
 
-        .icon {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
+            .icon {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
 
-        p3 {
-            font-size: 20px;
-            color: black;
-            font-family: "Montserrat", sans-serif;
-        }
+            p3 {
+                text-transform: uppercase;
+                font-size: 20px;
+                color: black;
+                font-family: "Montserrat", sans-serif;
+            }
 
-        .bottom {
-            border-radius: 15% 15% 0% 0%;
-            width: 92%;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            position: sticky;
-            bottom: 0%;
-            padding: 15px;
-        }
+            .bottom {
+                border-radius: 15% 15% 0% 0%;
+                width: 92%;
+                background-image: linear-gradient(to right,#B6C3E3, #B6C3E3);
+                display: flex;
+                flex-direction: column; 
+                align-items: center;   
+                position: sticky;
+                bottom: 0%;
+                padding: 15px;
+            }
 
-        .b1 {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            width: 250px;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-        }
+            .b1 {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                width: 250px;
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;  
+                align-items: center;   
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 20px;
+            }
 
-        .b1 svg {
-            margin-right: 10px;
-        }
+            .b1 svg {
+                margin-right: 10px;
+            }
 
-        p4 {
-            font-size: 16px;
-            color: black;
-            text-align: justify;
-            font-family: "Montserrat", sans-serif;
-            text-align: justify; /* Add text justification */
-        }
-        .info{
-            margin: 7%;
-        }
-        ul {
-            margin: 7%;
-            padding: 0;
-        }
-        li {
-            font-size: 18px;
-            color: black;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <p1>GIFTIFY</p1>
-    </header>
-    <br>
-    <div>
-        <p2>Download Giftify</p2>
-    </div>
-    <br>
-    <div class="icon">
-        <center><img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/logo/appicon.png" style="height: 230px; width: 230px;"></center>
-    </div>
-    <br>
-    <center><p3>GIFTIFY V1.0</p3></center>
-    <br>
-    <div class="info">
-        <b><p3>App Overview :</p3></b><br><br>
-        <center><p4>Giftify is a cutting-edge gift recommendation application designed to simplify the gift-giving process and ensure that every occasion is celebrated with the perfect gift. Whether it's a birthday, anniversary, holiday, or any special moment, Giftify is your go-to companion for thoughtful and personalized gift suggestions.</p4></center>
+            p4 {
+                font-size: 17px;
+                color: black;
+                text-align: justify;
+                font-family: "Montserrat", sans-serif;
+            }
+
+            .info {
+                margin: 7%;
+            }
+
+            ul {
+                margin: 7%;
+                padding: 0;
+            }
+
+            li {
+                font-size: 18px;
+                color: black;
+                margin-bottom: 10px;
+            }
+            .pic {
+                margin-top: 2%;
+                margin-left: 6%;
+                margin-right: 6%;
+            }
+            #screenshots {
+                display: flex;
+                overflow-x: auto;
+                padding: 10px;
+                margin: 5%;
+            }
+
+            .screenshot {
+                height: 600px;
+                width: auto;
+                margin-right: 10px;
+            }
+
+            .screenshot img {
+                height: 100%;
+                width: auto;
+            }
+            .ins{
+                margin: 3%;
+            }
+            p5{
+                font-size: 20px;
+                font-family: "URW Chancery L, cursive";
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p1>GIFTIFY</p1>
+        </header>
+        <br><br>
+        <div>
+            <b><p2>Download Giftify</p2></b>
+        </div>
         <br>
-        <b><p3>key features :</p3></b><br>
-        <ul>
-            <li>Personalized Gift Recommendations</li>
-            <li>Occasion-based Gift Lists</li>
-            <li>Recipient Profiling</li>
-            <li>Budget Filters</li>
-            <li>Real-time Trend Analysis</li>
-            <li>Wishlist Integration</li>
-            <li>Reminder Notifications</li>
-            <li>Secure Purchase Links</li>
-            <li>User Reviews and Ratings</li>
-            <li>Social Media Integration</li>
-            <li>Multi-platform Accessibility</li>
-        </ul>
-    </div>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="bottom">
-        <button class="b1">
-            <center>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
-                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                </svg>
-                Download
-            </center>
-        </button>
-    </div>
-</body>
+        <div class="icon">
+            <center><img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/logo/appicon.png" style="height: 230px; width: 230px;"></center>
+        </div>
+        <br>
+        <center><p3>GIFTIFY V1.0</p3></center>
+        <br>
+        <div class="info">
+            <b><p3>App Overview :</p3></b><br><br>
+            <center><p4>Giftify is a cutting-edge gift recommendation application designed to simplify the gift-giving process and ensure that every occasion is celebrated with the perfect gift. Whether it's a birthday, anniversary, holiday, or any special moment, Giftify is your go-to companion for thoughtful and personalized gift suggestions.</p4></center>
+            <br>
+            <b><p3>key features :</p3></b><br>
+            <ul>
+                <li>Personalized Gift Recommendations</li>
+                <li>Day & Night Mode</li>
+                <li>Occasion-based Gift Lists</li>
+                <li>Budget Filters</li>
+                <li>Real-time Trend Analysis</li>
+                <li>Wishlist Integration</li>
+                <li>Social Media Integration</li>
+                <li>Multi-platform Accessibility</li>
+            </ul>
+        </div>
+        <div class="pic">
+            <b><p3>screenshot :</p3></b><br><br>
+            <div id="screenshots">
+                <div class="screenshot">
+                    <img src="https://rohanpashikanti.github.io/Download-page/screenshots/1.png" alt="Screenshot 1">
+                </div>
+                <div class="screenshot">
+                    <img src="https://rohanpashikanti.github.io/Download-page/screenshots/2.png" alt="Screenshot 2">
+                </div>
+                <div class="screenshot">
+                    <img src="https://rohanpashikanti.github.io/Download-page/screenshots/3.png" alt="Screenshot 3">
+                </div>
+                <div class="screenshot">
+                    <img src="https://rohanpashikanti.github.io/Download-page/screenshots/4.png" alt="Screenshot 4">
+                </div>
+            </div>
+        </div>
+        <div class="ins">
+            <b><p2>Installation :</p2></b>
+            <video width="380px" height="250" controls>
+                <source src="https://rohanpashikanti.github.io/Download-page/screenshots/Screenrecord.mp4" type="video/mp4">
+            </video>
+        </div>
+        <br>
+        <center><p5>Desined & Developed By</p5><br><p5>Rohan Pashikanti</p5></center>
+        <br><br>
+        <div class="bottom">
+            <a href="https://www.mediafire.com/file/5fzm549867vc74z/app-release.apk/file" class="b1" download>
+                <center>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                    </svg>
+                    Download
+                </center>
+            </a>
+        </div>
+    </body>
 </html>
