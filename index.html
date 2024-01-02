@@ -1,35 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="https://rohanpashikanti.github.io/rohanpashikanti/gift.png" type="image/png">
-        <title>GIFTIFY</title>
-        <style>
-            body{
-                margin: 0%;
-                font-family: "Montserrat", sans-serif;;
-            }
-            header {
-                background-color :black;
-                display: flex;
-                justify-content: center;
-                width: 100%;
-                padding: 15px;
-            }
-            p1{
-                font-size: 25px;
-                color: white;
-                font-family: "Montserrat", sans-serif;
-            }
-        </style>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="https://rohanpashikanti.github.io/rohanpashikanti/gift.png" type="image/png">
+    <title>GIFTIFY</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #F9E8FD; /* Use a solid color instead of a gradient */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+        }
+
+        header {
+            border-radius: 0% 0% 15% 15%;
+            background-image: linear-gradient(to right, #9FE5FB, #FEB9B9);
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+        }
+
+        p1 {
+            font-size: 25px;
+            color: black;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        p2 {
+            font-size: 20px;
+            color: black;
+            padding-left: 35px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        p3 {
+            font-size: 20px;
+            color: black;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .bottom {
+            border-radius: 15% 15% 0% 0%;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            bottom: 0%;
+            padding: 15px;
+        }
+
+        .b1 {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .b1 svg {
+            margin-right: 10px;
+        }
+
+        p4 {
+            font-size: 16px;
+            color: black;
+            padding-left: 45px;
+            font-family: "Montserrat", sans-serif;
+            text-align: justify; /* Add text justification */
+        }
+    </style>
+</head>
+<body>
     <header>
-        <center>
-            <p1>GIFTIFY</p1>
-        </center>
+        <p1>GIFTIFY</p1>
     </header>
-    <body>
-        
-    </body>
+    <br>
+    <div>
+        <p2>Download Giftify</p2>
+    </div>
+    <br>
+    <div class="icon">
+        <center><img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/logo/appicon.png" style="height: 230px; width: 230px;"></center>
+    </div>
+    <br>
+    <center><p3>GIFTIFY V1.0</p3></center>
+    <br>
+    <div>
+        <b><p2>App Overview :</p2></b><br>
+        <p4>Giftify is a cutting-edge gift recommendation application designed to simplify the gift-giving process and ensure that every occasion is celebrated with the perfect gift. Whether it's a birthday, anniversary, holiday, or any special moment, Giftify is your go-to companion for thoughtful and personalized gift suggestions.</p4>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="bottom">
+        <button class="b1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+            </svg>
+            Download
+        </button>
+    </div>
+</body>
 </html>
